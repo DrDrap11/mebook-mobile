@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/color_primary"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        style="@style/loginCard"
+        app:cardCornerRadius="@dimen/loginCardRadius"
+        android:elevation="5dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        android:layout_marginBottom="@dimen/loginViewsMargin"
+        android:background="@color/color_primary">
+
+        <LinearLayout
+            style="@style/linearParent"
+            android:layout_gravity="center"
+            android:padding="@dimen/loginViewsMargin">
+
+            <TextView
+                style="@style/headerTextPrimary"
+                android:text="PEMBERITAHUAN"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+            <TextView
+                android:id="@+id/tvNotif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#C1212121"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+            <Button
+                android:id="@+id/login"
+                style="@style/loginButton"
+                android:text="OKE"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loading"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0C090909"
+            android:padding="50dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn2"
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true"
+                android:foreground="?android:selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp">
+
+                    <LinearLayout
+                        android:id="@+id/l1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="5dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_launcher_foreground"/>
+                        <!--                    <com.airbnb.lottie.LottieAnimationView-->
+                        <!--                        android:id="@+id/lav_thumbUp"-->
+                        <!--                        android:layout_width="150dp"-->
+                        <!--                        android:layout_height="150dp"-->
+                        <!--                        android:layout_marginTop="8dp"-->
+                        <!--                        android:layout_marginBottom="8dp"-->
+                        <!--                        app:lottie_rawRes="@raw/waiting"-->
+                        <!--                        app:lottie_autoPlay="true"-->
+                        <!--                        app:lottie_loop="true"-->
+                        <!--                        app:lottie_speed="1.25" />-->
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingLeft="40dp"
+                            android:paddingRight="30dp"
+                            android:paddingBottom="10dp"
+                            android:text="Mohon Menunggu"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
