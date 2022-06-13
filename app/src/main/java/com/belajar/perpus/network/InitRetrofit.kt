@@ -26,7 +26,7 @@ class InitRetrofit {
             .build()
 
         return Retrofit.Builder()
-            .baseUrl("http://$host/appc/api-perpus/apii/")
+            .baseUrl("http://$host/appc/api-com.example.perpus/apii/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build()

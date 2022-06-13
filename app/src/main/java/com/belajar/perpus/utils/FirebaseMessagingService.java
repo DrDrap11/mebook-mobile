@@ -81,7 +81,7 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
         bigStyle.setSummaryText("Perpustakaan");
         Bitmap largeIcon = BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher_foreground);
 
-        Uri NOTIFICATION_SOUND_URI = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://com.example.perpus/" + R.raw.arpeggio);
+        Uri NOTIFICATION_SOUND_URI = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://com.example.com.example.perpus/" + R.raw.arpeggio);
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
             // Creating Channel
