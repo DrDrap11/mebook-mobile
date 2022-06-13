@@ -7,6 +7,7 @@ import android.os.CountDownTimer
 import android.view.Window
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.belajar.perpus.R
 import com.example.perpus.ui.login.LoginActivity
 
 class SplashScreen : AppCompatActivity() {
