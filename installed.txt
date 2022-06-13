@@ -1,2 +1,0 @@
-org.intellij.plugins.markdown
-org.jetbrains.kotlin
