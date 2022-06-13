@@ -1,29 +1,17 @@
 package com.example.perpus.ui.buku
 
-import android.annotation.SuppressLint
 import android.app.DatePickerDialog
 import android.app.ProgressDialog
-import android.app.TimePickerDialog
 import android.content.Context
-import android.content.Intent
 import android.content.SharedPreferences
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import android.os.AsyncTask
 import android.os.Bundle
 import android.util.Log
 import android.view.*
 import android.widget.*
 import androidx.fragment.app.DialogFragment
-import com.example.perpus.MainActivity
 import com.example.perpus.R
-import com.example.perpus.model.PayloadPengembalian
-import com.example.perpus.model.ResponsePostPeminjaman
-import com.example.perpus.network.InitRetrofit
-import com.example.perpus.utils.TmpData
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import java.text.SimpleDateFormat
 import java.util.*
 

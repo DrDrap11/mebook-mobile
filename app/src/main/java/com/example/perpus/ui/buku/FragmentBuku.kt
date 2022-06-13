@@ -13,10 +13,7 @@ import android.util.Log
 import android.view.View
 import android.view.Window
 import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -27,7 +24,6 @@ import com.example.perpus.adapter.KategoriAdapter
 import com.example.perpus.databinding.FragmentBukuBinding
 import com.example.perpus.model.PayloadBuku
 import com.example.perpus.model.PayloadKategori
-import com.example.perpus.model.ResponseLogin
 import com.example.perpus.model.ResponsePostPeminjaman
 import com.example.perpus.network.InitRetrofit
 import com.example.perpus.ui.kategori.KategoriPresenter
@@ -37,7 +33,6 @@ import com.example.perpus.utils.ViewData
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 

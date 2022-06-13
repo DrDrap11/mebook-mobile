@@ -1,6 +1,5 @@
 package com.example.perpus.ui.pengembalian
 
-import com.example.perpus.model.PayloadPeminjaman
 import com.example.perpus.model.PayloadPengembalian
 
 interface PengembalianView {

@@ -7,7 +7,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.perpus.R
-import com.example.perpus.ui.login.LoginFragment
 
 class LoginActivity : AppCompatActivity() {
 

@@ -2,7 +2,6 @@ package com.example.perpus
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.perpus.databinding.ActivityMainBinding
 import com.example.perpus.databinding.DialogSignoutBinding
 
 class CloseActivity : AppCompatActivity() {

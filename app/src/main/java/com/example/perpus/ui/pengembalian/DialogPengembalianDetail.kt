@@ -1,6 +1,5 @@
 package com.example.perpus.ui.pengembalian
 
-import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Context
 import android.content.Intent
@@ -19,16 +18,13 @@ import com.example.perpus.MainActivity
 import com.example.perpus.R
 import com.example.perpus.adapter.PeminjamanDetailAdapter
 import com.example.perpus.model.PayloadPeminjamanDetail
-import com.example.perpus.model.ResponsePostPeminjaman
 import com.example.perpus.model.ResponsePostPengembalian
 import com.example.perpus.network.InitRetrofit
 import com.example.perpus.ui.detailpeminjaman.PeminjamanDetailPresenter
 import com.example.perpus.ui.detailpeminjaman.PeminjamanDetailView
-import com.example.perpus.utils.TmpData
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import kotlin.math.log
 
 class DialogPengembalianDetail : DialogFragment(), PeminjamanDetailView {
 

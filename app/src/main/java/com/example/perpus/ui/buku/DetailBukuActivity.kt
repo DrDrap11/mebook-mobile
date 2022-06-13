@@ -3,10 +3,8 @@ package com.example.perpus.ui.buku
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.perpus.databinding.ActivityDetailBukuBinding
-import com.example.perpus.model.ResponseBuku
 import com.example.perpus.model.ResponseBukuDetail
 import com.example.perpus.network.InitRetrofit
 import com.squareup.picasso.Picasso

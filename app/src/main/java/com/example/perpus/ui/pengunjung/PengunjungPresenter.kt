@@ -2,7 +2,6 @@ package com.example.perpus.ui.pengunjung
 
 import android.util.Log
 import com.example.perpus.model.PayloadPengunjungPersonal
-import com.example.perpus.model.ResponseKategori
 import com.example.perpus.model.ResponsePengunjungPersonal
 import com.example.perpus.network.InitRetrofit
 import retrofit2.Call

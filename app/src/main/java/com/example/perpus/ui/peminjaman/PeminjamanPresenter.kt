@@ -2,7 +2,6 @@ package com.example.perpus.ui.peminjaman
 
 import android.util.Log
 import com.example.perpus.model.ResponsePeminjaman
-import com.example.perpus.model.ResponsePeminjamanDetail
 import com.example.perpus.network.InitRetrofit
 import retrofit2.Call
 import retrofit2.Callback

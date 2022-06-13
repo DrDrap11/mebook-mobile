@@ -17,13 +17,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.perpus.MainActivity
 import com.example.perpus.R
 import com.example.perpus.databinding.ActivityQrcodeBinding
-import com.example.perpus.model.PayloadBukuDetail
 import com.example.perpus.model.ResponseBukuDetail
 import com.example.perpus.model.ResponsePostPeminjaman
 import com.example.perpus.network.InitRetrofit
 import com.example.perpus.utils.TmpData
-import com.google.zxing.Result
-import com.squareup.picasso.Picasso
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 import retrofit2.Call
 import retrofit2.Callback

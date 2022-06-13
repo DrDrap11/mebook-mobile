@@ -1,8 +1,6 @@
 package com.example.perpus.ui.pengembalian
 
 import android.util.Log
-import com.example.perpus.model.ResponseBuku
-import com.example.perpus.model.ResponsePeminjaman
 import com.example.perpus.model.ResponsePengembalian
 import com.example.perpus.network.InitRetrofit
 import retrofit2.Call

@@ -8,7 +8,6 @@ import com.example.perpus.R
 import com.example.perpus.databinding.FragmentHomeBinding
 import com.example.perpus.model.ResponsePengunjung
 import com.example.perpus.network.InitRetrofit
-import com.example.perpus.utils.TmpData
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

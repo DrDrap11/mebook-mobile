@@ -2,17 +2,14 @@ package com.example.perpus.adapter
 
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 import com.example.perpus.R
-import com.example.perpus.model.PayloadPeminjaman
 import com.example.perpus.model.PayloadPeminjamanDetail
 import com.example.perpus.network.InitRetrofit
 import com.example.perpus.ui.buku.DetailBukuActivity

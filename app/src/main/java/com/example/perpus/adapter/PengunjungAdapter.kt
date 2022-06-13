@@ -8,10 +8,7 @@ import android.widget.TextView
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 import com.example.perpus.R
-import com.example.perpus.model.PayloadKategori
 import com.example.perpus.model.PayloadPengunjungPersonal
-import com.example.perpus.ui.buku.BukuView
-import com.example.perpus.utils.TmpData
 import com.example.perpus.utils.ViewData
 
 class PengunjungAdapter : RecyclerView.Adapter<PengunjungAdapter.MyViewHolder> {

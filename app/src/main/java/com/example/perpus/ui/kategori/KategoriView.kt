@@ -1,6 +1,5 @@
 package com.example.perpus.ui.kategori
 
-import com.example.perpus.model.PayloadBuku
 import com.example.perpus.model.PayloadKategori
 
 interface KategoriView {

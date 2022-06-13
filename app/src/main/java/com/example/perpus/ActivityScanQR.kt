@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.perpus.databinding.ActivityQrcodeBinding
 import com.example.perpus.model.ResponsePostPengunjung
 import com.example.perpus.network.InitRetrofit
-import com.google.zxing.Result
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 import retrofit2.Call
 import retrofit2.Callback

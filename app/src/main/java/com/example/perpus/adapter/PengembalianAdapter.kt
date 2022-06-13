@@ -12,9 +12,7 @@ import androidx.annotation.NonNull
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.perpus.R
-import com.example.perpus.model.PayloadPeminjaman
 import com.example.perpus.model.PayloadPengembalian
-import com.example.perpus.ui.peminjaman.DialogPeminjamanDetail
 import com.example.perpus.ui.pengembalian.DialogPengembalianDetail
 
 

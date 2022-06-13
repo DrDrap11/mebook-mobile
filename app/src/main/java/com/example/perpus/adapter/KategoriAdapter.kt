@@ -1,6 +1,5 @@
 package com.example.perpus.adapter
 
-import android.app.Activity
 import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -12,7 +11,6 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.perpus.R
 import com.example.perpus.model.PayloadKategori
-import com.example.perpus.ui.buku.BukuView
 import com.example.perpus.utils.TmpData
 import com.example.perpus.utils.ViewData
 
